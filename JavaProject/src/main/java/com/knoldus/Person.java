@@ -28,6 +28,8 @@ public class Person {
 
  //Adding  a new method to the Person class that returns a boolean indicating whether
  //the person is an adult (age >= 18).
+
+ //fixing the bug and renaming the isAdult() to isAdultOrNot()
  public Boolean isAdult() {
   if (this.age >= 18) return true;
   else return false;
